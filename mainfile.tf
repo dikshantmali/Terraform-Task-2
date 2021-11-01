@@ -7,7 +7,7 @@ resource "aws_key_pair" "mykey" {
 resource "aws_security_group" "mysecuritygroup" {
   name        = "TLS"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-bc857ec1"
+  vpc_id      = "put your vpc id"
 
 
   ingress {
